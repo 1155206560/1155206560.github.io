@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+header {
+    background-color: powderblue;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px
+}
+nav {
+    width:100%;
+}
+.navbar ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    background-color: pink;
+}
+.navbar li {
+    width: 20%;
+    text-align: center;
+    display: inline-block;
+        
+}
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    padding: 15px;
+}
+
+.navbar li a:hover {
+    background-color: aqua;
+}
+
+aside {
+    padding-top: 2vh;
+    padding-left: 1vw;
+    width: 10vw;
+    min-height: calc(100vh - 50px);
+    float: left;
+    background-color: lightgreen;
+}
+aside h2 {
+    text-decoration: none;
+}
+aside ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    align-items: center;
+    overflow: hidden;
+}
+aside a {
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: left;
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+aside li a:hover {
+    background-color: aqua;
+}
+
+section {
+    padding: 2vw;
+    float: left; 
+    background-color: burlywood;
+}
+
+.ftbar {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: lightgrey;
+   color: white;
+   text-align: center;
+   padding: 5px;
+}
+.ftbar p {
+    font-size: 10px;
+}
