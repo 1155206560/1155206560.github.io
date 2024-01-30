@@ -9,7 +9,29 @@ header {
     justify-content: space-between;
     padding: 20px
 }
-nav {
+
+.navlist {
+    list-style: none;
+    display: flex;
+    background-color: pink;
+    align-items: center;
+    text-align: center;
+}
+.navlist > * {
+    flex: 1;
+    padding: 15px;
+}
+.navlist li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 15px;
+}
+.navbar li a:hover {
+    background-color: aqua;
+}
+
+/* nav {
     width:100%;
 }
 .navbar ul {
@@ -34,16 +56,17 @@ nav {
     text-align: center;
     display: block;
     padding: 15px;
-}
+} */
 
-.navbar li a:hover {
-    background-color: aqua;
+.mainwrapper {
+    display: flex;
+}
+.mainwrapper > * {
+    flex-grow: 1;
 }
 
 aside {
-    padding-top: 2vh;
-    padding-left: 1vw;
-    width: 10vw;
+    padding: 15px;
     min-height: calc(100vh);
     float: left;
     background-color: lightgreen;
@@ -73,7 +96,6 @@ aside li a:hover {
 section {
     padding-top: 2vh;
     padding-left: 1vw;
-    width:87%;
     float: left; 
 }
 
@@ -82,10 +104,8 @@ section p {
 }
 
 .ftbar {
-   position: fixed;
    left: 0;
    bottom: 0;
-   width: 100%;
    background-color: lightgrey;
    color: white;
    text-align: center;
@@ -96,7 +116,6 @@ section p {
 }
 
 .catelog{
-    padding: 5px;
     display: flex;
     justify-content:flex-start;
     flex-wrap: wrap;
