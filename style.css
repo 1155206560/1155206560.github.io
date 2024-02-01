@@ -158,3 +158,33 @@ section p {
     display: flex;
     gap: 1rem;
 }
+
+.shop-cart {
+    position: relative;
+    display: inline-block;
+}
+.cart-content {
+    border-radius: 5px;
+    padding: 5px;
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f1f1f1;
+    min-width: 15rem;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.shop-cart:hover .cart-content {
+    display: block;
+}
+.cart-item-wrapper {
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+}
+.small-input-box {
+    width: 2rem;
+}
+.top-border {
+    border-top: 2px solid black;
+}
