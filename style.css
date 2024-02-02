@@ -4,7 +4,7 @@
     font-family: sans-serif;
 }
 header {
-    background-color: powderblue;
+    background-color: white;
     display: flex;
     justify-content: space-between;
     padding: 20px
@@ -13,7 +13,7 @@ header {
 .navlist {
     list-style: none;
     display: flex;
-    background-color: pink;
+    background-color: #6DB5CA;
     align-items: center;
     text-align: center;
 }
@@ -28,35 +28,8 @@ header {
     padding: 15px;
 }
 .navbar li a:hover {
-    background-color: aqua;
+    background-color: black;
 }
-
-/* nav {
-    width:100%;
-}
-.navbar ul {
-    list-style-type: none;
-    padding: 0px;
-    margin: 0px;
-    align-items: center;
-    text-align: center;
-    overflow: hidden;
-    background-color: pink;
-}
-.navbar li {
-    width: 20%;
-    text-align: center;
-    display: inline-block;
-        
-}
-.navbar a {
-    text-decoration: none;
-    color: #fff;
-    text-transform: uppercase;
-    text-align: center;
-    display: block;
-    padding: 15px;
-} */
 
 .mainwrapper {
     display: flex;
@@ -69,7 +42,7 @@ aside {
     padding: 15px;
     min-height: calc(100vh);
     float: left;
-    background-color: lightgreen;
+    background-color: #86bbcb;
 }
 aside h2 {
     text-decoration: none;
@@ -83,6 +56,7 @@ aside ul {
 }
 aside a {
     text-decoration: none;
+    color: #fff;
     text-transform: uppercase;
     text-align: left;
     display: block;
@@ -90,7 +64,7 @@ aside a {
     padding-bottom: 15px;
 }
 aside li a:hover {
-    background-color: aqua;
+    background-color: black;
 }
 
 section {
@@ -107,7 +81,7 @@ section p {
 .ftbar {
    left: 0;
    bottom: 0;
-   background-color: lightgrey;
+   background-color: #6DB5CA;
    color: white;
    text-align: center;
    padding: 5px;
@@ -129,7 +103,7 @@ section p {
     width: 300px;
     height: 200px;
     border-radius: 15px;
-    background-color: pink;
+    background-color: rgb(243, 165, 113);
 }
 .product img {
     max-width: 100%;
@@ -182,9 +156,37 @@ section p {
     padding: 5px;
     justify-content: space-between;
 }
+.cart-item-wrapper > .flex {
+    flex: 1;
+}
 .small-input-box {
     width: 2rem;
 }
 .top-border {
     border-top: 2px solid black;
+}
+.frame {
+    border: 5px solid black;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+.details-div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.price {
+    font-size: 40px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: red;
+}
+.large-btn {
+    background-color: black;
+    color: white;
+    border-radius: 1rem;
+    padding: 5px;
+    display: block;
+    width: 40%;
+    text-align: center;
+    text-decoration: none;
 }
