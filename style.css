@@ -190,3 +190,7 @@ section p {
     text-align: center;
     text-decoration: none;
 }
+.vert-center {
+    display: flex;
+    align-items: center;
+}
